@@ -23,3 +23,18 @@ Traceback (most recent call last):
     for i in bank.data:
              ^^^^^^^^^
 AttributeError: 'bank' object has no attribute 'data'
+
+
+
+
+Traceback (most recent call last):
+  File "c:\Users\priya\Desktop\VS Code\chatgpt\menu.py", line 21, in <module>
+    bank.deposit(accno, depamt)
+  File "c:\Users\priya\Desktop\VS Code\chatgpt\module.py", line 46, in deposit
+    self.trans = self.trans.append({
+                 ^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\AppData\Roaming\Python\Python312\site-packages\pandas\core\generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'append'. Did you mean: '_append'?
+PS C:\Users\priya\Desktop\VS Code\chatgpt> 
