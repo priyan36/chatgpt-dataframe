@@ -14,3 +14,12 @@ Traceback (most recent call last):
     for i in self.data:
              ^^^^^^^^^
 AttributeError: 'bank' object has no attribute 'data'
+
+
+
+
+Traceback (most recent call last):
+  File "c:\Users\priya\Desktop\VS Code\chatgpt\menu.py", line 15, in <module>
+    for i in bank.data:
+             ^^^^^^^^^
+AttributeError: 'bank' object has no attribute 'data'
