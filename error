@@ -1,0 +1,16 @@
+Service Provided:
+1. Acc Creation
+2. Deposit
+3. Withdraw
+4. Fixed Deposit
+5. Exit
+3
+Enter Accno: 123
+Enter Withdraw Amount: 2300
+Traceback (most recent call last):
+  File "c:\Users\priya\Desktop\VS Code\chatgpt\menu.py", line 27, in <module>
+    bank.withdraw(accno, witamt)
+  File "c:\Users\priya\Desktop\VS Code\chatgpt\module.py", line 77, in withdraw
+    for i in self.data:
+             ^^^^^^^^^
+AttributeError: 'bank' object has no attribute 'data'
